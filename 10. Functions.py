@@ -84,3 +84,12 @@ def Student(Name, Class, Roll_No):
     print("Hello,\n", Name, Class, Roll_No)
 Student(Name= "Hermione Granger", Class= "First-Year Magic Student ", Roll_No= 3)
 
+# Return Statement 
+''' 
+2 Uses - 1. End the function, 2. Send Value Back to the program
+'''
+def Advice(a):
+  return "Honesty is the best " + a + "!"
+
+Saying = Advice("Policy")
+print(Saying) 
