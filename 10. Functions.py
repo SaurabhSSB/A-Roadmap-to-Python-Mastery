@@ -63,3 +63,9 @@ Multiplication(c= 12, b= 15, a= 11)
 '''
  Variable-length arguments:- Used to pass more arguments than defined in the actual function.
 '''
+# Arbitrary Arguments
+
+def name(*credit):
+    print("Hi,\n", credit[0], credit[1], credit[2])
+name("Roshan ", "Rihan ", "Reetha ")
+
