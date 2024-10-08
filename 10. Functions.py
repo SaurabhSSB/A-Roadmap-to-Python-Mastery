@@ -34,3 +34,11 @@ c= 82
 d= 7
 Small(c, d)
 Add(c, d)
+
+'''
+Arguments in Python are of four Types:
+Default Arguments
+Keyword Arguments
+Variable Length Arguments
+Required Arguments
+'''
