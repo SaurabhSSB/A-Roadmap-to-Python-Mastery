@@ -76,3 +76,11 @@ def name(**debit):
 name(debitor1 = "Yamla ", debitor2 = "Pagla ", debitor3 = "Deewana ")
 
 
+'''
+Required Arguments:- Conventionally, it is necessary to pass the arguments in the correct positional order 
+and the number of arguments passed should match with arguments of function .
+'''
+def Student(Name, Class, Roll_No):
+    print("Hello,\n", Name, Class, Roll_No)
+Student(Name= "Hermione Granger", Class= "First-Year Magic Student ", Roll_No= 3)
+
