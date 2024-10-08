@@ -69,3 +69,10 @@ def name(*credit):
     print("Hi,\n", credit[0], credit[1], credit[2])
 name("Roshan ", "Rihan ", "Reetha ")
 
+# Keyword Arbitrary Arguments
+
+def name(**debit):
+    print("Hi,\n", debit["debitor1"], debit["debitor3"], debit["debitor3"])
+name(debitor1 = "Yamla ", debitor2 = "Pagla ", debitor3 = "Deewana ")
+
+
