@@ -60,3 +60,6 @@ def Multiplication(a, b, c):
     print("Product is ", a*b*c)
 Multiplication(c= 12, b= 15, a= 11)
 
+'''
+ Variable-length arguments:- Used to pass more arguments than defined in the actual function.
+'''
