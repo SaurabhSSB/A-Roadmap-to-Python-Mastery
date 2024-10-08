@@ -4,7 +4,7 @@ for i in name:
 
 Directions= ["North ", "South", "East ", "West"]
 for i in Directions:
-    print("Day", i, end= ",")
+    print("Direction", i, end= ",")
 
 for x in range(5):
     print(x)
