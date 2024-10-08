@@ -49,3 +49,14 @@ def Add(a= 5, b= 7):
   print("Sum is:- ",a+b)
 Add()
 
+'''
+Keyword Arguemnts:- Arguments with key = value.
+By this the interpreter recognizes the arguments by the parameter name.
+So the order in which the arguments are passed is not relevant.
+'''
+
+def Multiplication(a, b, c):
+    print("a= ", a, "b= ", b, "c= ", c)
+    print("Product is ", a*b*c)
+Multiplication(c= 12, b= 15, a= 11)
+
