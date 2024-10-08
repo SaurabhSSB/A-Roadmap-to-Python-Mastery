@@ -42,3 +42,10 @@ Keyword Arguments
 Variable Length Arguments
 Required Arguments
 '''
+'''
+Default Argument:- We provide a default value while creating a function.
+'''
+def Add(a= 5, b= 7): 
+  print("Sum is:- ",a+b)
+Add()
+
