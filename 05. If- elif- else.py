@@ -6,7 +6,7 @@ make decisions and perform actions accordingly.
 
 # If Loop
 
-a= input("Enter number:- ")
+a= input("Enter name:- ")
 b= "power"
 if(type(a)== type(b)):
    print("String ")
@@ -21,8 +21,8 @@ else:
 
 # If- elif Loop
 
-Selling_Price = int(input("Enter Selling Price:- "))
-Cost_Price = int(input("Enter Cost Price:- "))
+Selling_Price = int(input("Enter Selling Price of Your Product:- "))
+Cost_Price = int(input("Enter Cost Price of Your Product:- "))
 if (Selling_Price< Cost_Price):
     print("Profit ")
 elif(Selling_Price== Cost_Price):
@@ -32,7 +32,7 @@ else:
 
 # Nested If Loop
 
-number = 36
+number = int(input("Enter any number:- "))
 if (number < 0):
     print("Negative Number")
 elif (number > 0):
