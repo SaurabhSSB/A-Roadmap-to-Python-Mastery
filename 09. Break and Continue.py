@@ -22,3 +22,22 @@ for i in [2,3,4,6,8,12]:
         continue
     print(i)
 
+
+def even_odd(number):
+    if number%2==0:
+        return  f"{number} is even"
+    else:
+        return f"{number} is odd"
+if __name__ == "__main__":
+    try:
+        user_input=input("enter a number")
+        if user_input:
+            user_input=int(user_input)
+            result= even_odd(user_input)
+            print(result)
+        else:
+            print("No inupt provided")
+    except ValueError:
+        print("Enter a valid integer")
+    except EOFError:
+        print("No input detected")
