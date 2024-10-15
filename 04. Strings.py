@@ -1,5 +1,5 @@
 # Anything that is between single or double quotation marks is string. 
-# It is basically a collection of Characters.
+# It is basically a collection of Characters. Strings are Immutable.
 
 name = "Batman" # Batman is string
 print("Hello "+name) # Hellow is string
