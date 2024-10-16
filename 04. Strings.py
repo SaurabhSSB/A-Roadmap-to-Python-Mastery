@@ -40,6 +40,11 @@ print(a.split(" "))
 print(a.count("Apple"))
 print(a.find("i"))
 print(a.index("i")) # Raises error when the value is not found
+print(a.swapcase())
+print(a.isprintable())
+print(a.isspace())
+print(a.istitle())
+print(a.title())
 
 print(b.rstrip("!"))
 print(b.capitalize())
@@ -48,6 +53,7 @@ print(b.endswith("."))
 print(b.islower())
 print(b.istitle())
 print(b.title())
+print(b.startswith("mohan's"))
 
 print(d.isalnum())
 print(d.isupper())
@@ -56,3 +62,4 @@ print(e.strip())
 
 print(name.swapcase())
 print(name.isalpha())
+
