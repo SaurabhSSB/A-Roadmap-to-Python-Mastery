@@ -6,16 +6,6 @@ User Definded Functions:- The functions we create to perform specific tasks as p
 Calling a function:- We call a function by the function name, followed by parameters (if any) inside the parenthesis.
 '''
 
-
-
-
-
-
-
-
-
-
-
 def Out():
   print("No Parameters Required")
 def Add(a, b): # Here a and b are Parameters and Arguments are passed to these Parameters
@@ -26,6 +16,11 @@ def Bigger(a, b):
     print("First Number is Bigger")
   else:
     print("Second number is Bigger")
+def Small(a, b):
+  if(a>b):
+    print("Second Number is Smaller")
+  else:
+    print("First Number is Smaller")
 
 
 a= 12
