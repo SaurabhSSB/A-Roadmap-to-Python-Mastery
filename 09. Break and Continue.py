@@ -37,9 +37,7 @@ if __name__ == "__main__":
             print(result)
         else:
             print("No inupt provided")
-
-
-
-
     except ValueError:
         print("Enter a valid integer")
+    except EOFError:
+        print("No input detected")
