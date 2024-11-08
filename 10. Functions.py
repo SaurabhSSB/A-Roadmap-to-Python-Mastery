@@ -16,6 +16,12 @@ def Bigger(a, b):
     print("First Number is Bigger")
   else:
     print("Second number is Bigger")
+
+
+
+
+
+
 def Small(a, b):
   if(a>b):
     print("Second Number is Smaller")
@@ -32,7 +38,6 @@ c= 82
 d= 7
 Small(c, d)
 Add(c, d)
-
 '''
 Arguments in Python are of four Types:
 Default Arguments
