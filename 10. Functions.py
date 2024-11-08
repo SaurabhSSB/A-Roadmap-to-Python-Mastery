@@ -16,13 +16,15 @@ def Bigger(a, b):
     print("First Number is Bigger")
   else:
     print("Second number is Bigger")
+
+
+
+
 def Small(a, b):
   if(a>b):
     print("Second Number is Smaller")
   else:
     print("First Number is Smaller")
-
-
 a= 12
 b= 89
 Out()
