@@ -16,6 +16,7 @@ if 2 in b:
     print(f"Yes {2*1} is present in b")
 else:
     print(f"No {2*1} is not present in b")
+    
 # Manipulation
 
 a1= {23, 22, 45, 56}
