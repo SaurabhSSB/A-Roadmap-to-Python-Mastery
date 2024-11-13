@@ -63,3 +63,15 @@ print(e.strip())
 print(name.swapcase())
 print(name.isalpha())
 
+# String Formatting or f-string
+b= "Shyam"
+c= "Wait for some time"
+a= "Welcome {} to this place we would like you to {}, right {}."
+x= "Welcome {0} to this place we would like you to {1}, right {1}."
+y= f"Welcome {b} to this place we would like you to {c}, right {c}."
+print(a.format(b,c,b))
+print(x.format(b,c,b))
+print(y)
+Weight=68.888
+print(f"Weight is {Weight:.1f}")
+print(f"The format of {{a}} will be give in the right way {2*4}")
