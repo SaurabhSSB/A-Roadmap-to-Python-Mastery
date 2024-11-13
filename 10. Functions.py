@@ -106,3 +106,6 @@ Multiplication(4,6)
 print(Multiplication.__doc__)
 
 # PEP 8 is Python Enhancement Proposal a document that provides guidelines and best practices on how to write Python Code.
+# The Zen of Python consists of nineteen aphorisms, some of which favor one specific trait over another,
+# providing opinions about what makes your code better
+# Can be accessed by writing import this
