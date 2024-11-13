@@ -39,3 +39,18 @@ difference()
 difference_update()
 '''
 
+# IN- Built Methods
+print(a1.isdisjoint(a3))
+print(a1.isdisjoint(a2))
+print(a1.issuperset(a2))
+print(a1.issubset(a2))
+
+a1.add(11)
+a1.remove(3)
+a1.discard(21)# No Error
+print(a1)
+a10= a1.pop()
+print(a10)
+del a10
+a3.clear()
+print(a3)
