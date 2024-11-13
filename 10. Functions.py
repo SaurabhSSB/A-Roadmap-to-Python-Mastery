@@ -109,3 +109,7 @@ print(Multiplication.__doc__)
 # The Zen of Python consists of nineteen aphorisms, some of which favor one specific trait over another,
 # providing opinions about what makes your code better
 # Can be accessed by writing import this
+
+# Recursive Function
+# When a Function Repeats itself or calls some other functions.
+
