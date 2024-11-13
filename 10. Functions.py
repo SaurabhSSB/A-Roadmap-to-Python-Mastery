@@ -96,3 +96,11 @@ def Advice(a):
 
 Saying = Advice("Policy")
 print(Saying) 
+
+# Docstring : String Literals used to define a function, method, class or module
+
+def Multiplication(a,b):
+  '''This function takes two integers and the product of the two number is given as output'''
+  print(a*b) 
+Multiplication(4,6)
+print(Multiplication.__doc__)
