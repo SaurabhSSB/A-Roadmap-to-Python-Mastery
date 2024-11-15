@@ -11,3 +11,8 @@ for x in range(5):
 
 for k in range(2,8):
     print(k)
+
+for i in range(5):
+    print("Cool")
+else:
+    print("Warm")
