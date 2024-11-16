@@ -16,3 +16,11 @@ for i in range(5):
     print("Cool")
 else:
     print("Warm")
+
+# Enumerate 
+
+a=[10,22,3,45,56,27.11]
+for a,b in enumerate(a, start= -1):
+    print(b)
+    if(a==3):
+        print("Enumerated Successfully")
