@@ -45,3 +45,8 @@ elif (number > 0):
         print("Number is greater than 20")
 else:
     print("Number is zero")
+
+# Ternary If- Else
+x=10 
+y=50
+print(x) if x<y else print(y)if x>y else print(0)
