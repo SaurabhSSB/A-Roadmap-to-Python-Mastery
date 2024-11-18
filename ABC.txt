@@ -1,2 +1,4 @@
 This is a text file. 
 This happens to be the place which i am going to use for the file operation in python.
+Finally able to do operation on file. Thanks Python!
+Finally able to do operation on file. Thanks Python!
