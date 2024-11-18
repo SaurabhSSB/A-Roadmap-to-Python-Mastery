@@ -13,3 +13,10 @@ a.close()
 # t mode- Text Default
 # b mode- Binary Jpg, Image, Pdf, exe
 
+f= open("ABC.txt","r")
+while True:
+    line= f.readline()
+    if not line:
+        break
+    print(line)
+
