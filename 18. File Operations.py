@@ -5,7 +5,6 @@ a= open("ABC.txt","r")
 r= a.read()
 print(r)
 a.close()
-
 # r mode- Read Default
 # w mode- Write
 # a mode- Append
@@ -14,6 +13,11 @@ a.close()
 # b mode- Binary Jpg, Image, Pdf, exe
 
 f= open("ABC.txt","r")
+
+
+
+
+
 while True:
     line= f.readline()
     if not line:
