@@ -20,3 +20,7 @@ while True:
         break
     print(line)
 
+x= open("ABCD.txt","w")
+y= ['one\n','two\n','three\n']
+x.writelines(y)
+x.close()
