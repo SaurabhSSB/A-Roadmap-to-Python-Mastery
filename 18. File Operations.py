@@ -24,3 +24,17 @@ x= open("ABCD.txt","w")
 y= ['one\n','two\n','three\n']
 x.writelines(y)
 x.close()
+
+with open("ABC.txt","r") as a:
+    print(type(a))
+    a.seek(5)
+    print(a.tell())
+    x=a.read(6)
+    print(a.tell())
+    print(x)
+
+with open("z_is.txt",'w') as b:
+    b.write("Relay the Message.")
+    b.truncate(6)
+with open("z_is.txt",'r') as c:
+    print(c.read())
