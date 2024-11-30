@@ -113,3 +113,15 @@ print(Multiplication.__doc__)
 # Recursive Function
 # When a Function Repeats itself or calls some other functions.
 
+#Lambda
+Square= lambda a: a*a
+b= Square(7)
+print(b)
+
+Average= lambda a,b,c: (a+b+c)/3
+print(Average(2,4,6))
+
+def Sqad(a,b):
+  print(a(b))
+
+Sqad(lambda a: a*a,4)
