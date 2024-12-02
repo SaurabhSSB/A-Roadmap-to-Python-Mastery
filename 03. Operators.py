@@ -26,6 +26,13 @@ print(z*a)
 
 print(a>b, " ", a<b, " ", a==b, " ", a!=b, " ", a>=b, " ", a<=b)
 
+# 'is' vs '=='
+
+a, b=  3, 3 # Constant Immutable
+x, y = [1, 2, 3], [1, 2, 3]
+print( a==b, " ", a is b)
+print( x==y, " ", x is y)
+
 # Assignment Operators
 
 d= 16
