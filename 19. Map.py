@@ -1,4 +1,4 @@
-# Map- Value Takes Argument
+# Map- Value Takes Function
 
 def Increment(x):
     return(x+1)
@@ -14,4 +14,9 @@ print(c)
 d=list(filter(lambda x: x<21, c))
 print(d)
 
-# Reduce
+# Reduce- Single Value Takes Function
+from functools import reduce
+
+x=[11, 34, 5, 27, 53, 22]
+y=reduce( lambda x1, x2: x1+ x2, x)
+print(y)
