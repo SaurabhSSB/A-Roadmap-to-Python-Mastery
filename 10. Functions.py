@@ -124,4 +124,7 @@ print(Average(2,4,6))
 def Sqad(a,b):
   print(a(b))
 
+# Anonymous Function
+
 Sqad(lambda a: a*a,4)
+
