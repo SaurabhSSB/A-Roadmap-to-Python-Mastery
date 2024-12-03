@@ -19,4 +19,3 @@ print(type(y.erfc))
 
 from Afunc import *
 Multiplication(10, 11, 12)
-
