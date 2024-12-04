@@ -1,4 +1,5 @@
 # Multiple Inheritance
+# MRO- Method Resolution Order
 class Entry:
     def __init__(self, roll_no, name):
         self.roll_no= roll_no
@@ -18,7 +19,7 @@ class Stream:
     def approved(self):
         print(f"{self.name} is approved in this Stream.")
 
-class Library (Stream, Entry):
+class Library (Entry, Stream):
     def __init__(self, roll_no, name, stream):
         super().__init__(roll_no, name)
         self.stream= stream
@@ -32,3 +33,5 @@ a.open()
 b.open()
 c.open()
 c.approved()
+
+print(Library.mro())
