@@ -4,6 +4,11 @@ import time
 def sum(x, y):
     print(x+ y)
 
+
+
+
+
+
 def product(x, y):
     print(x*y)
 
@@ -14,7 +19,6 @@ t1= time.time()
 product(4,6)
 print(t2)
 print(time.time()-t1)
-
 # lambda addition
 a= time.time()
 add= lambda x, y: x+ y
