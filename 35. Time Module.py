@@ -3,11 +3,12 @@ import time
 
 def sum(x, y):
     print(x+ y)
-
 def product(x, y):
     print(x*y)
 
 t= time.time()
+
+
 sum(10,11)
 t2=time.time()- t
 t1= time.time()
