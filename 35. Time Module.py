@@ -9,12 +9,14 @@ def product(x, y):
 
 t= time.time()
 sum(10,11)
+
+
+
 t2=time.time()- t
 t1= time.time()
 product(4,6)
 print(t2)
 print(time.time()-t1)
-
 # lambda addition
 a= time.time()
 add= lambda x, y: x+ y
