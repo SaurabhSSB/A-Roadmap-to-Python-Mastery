@@ -1,6 +1,6 @@
 # Built- In Module for time related operations
-
 import time
+
 def sum(x, y):
     print(x+ y)
 
