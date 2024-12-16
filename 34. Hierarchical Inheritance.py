@@ -1,7 +1,7 @@
 # Tree like structure
-
 class one:
     pass
+
 class two(one):
     pass
 class three(one):
