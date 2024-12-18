@@ -1,10 +1,10 @@
 # Built- In Module for time related operations
 import time
+
 def sum(x, y):
     print(x+ y)
 
 def product(x, y):
-
     print(x*y)
 
 t= time.time()
