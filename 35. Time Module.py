@@ -24,8 +24,8 @@ print(a1)
 
 print("Saurabh Singh Bhandari")
 time.sleep(6)
-print("Is a wonderful person.")
 
+print("Is a wonderful person.")
 x= time.localtime()
 f= time.strftime("%Y-%M-%D  %H:%M:%S", x)
 print(f)
